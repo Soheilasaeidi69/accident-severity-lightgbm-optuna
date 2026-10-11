@@ -1,0 +1,10 @@
+              precision    recall  f1-score   support
+
+  Severity 1      0.662     0.415     0.511       614
+  Severity 2      0.680     0.815     0.742     10302
+  Severity 3      0.569     0.536     0.552      6148
+  Severity 4      0.558     0.148     0.234      1994
+
+    accuracy                          0.642     19058
+   macro avg      0.617     0.479     0.509     19058
+weighted avg      0.631     0.642     0.620     19058

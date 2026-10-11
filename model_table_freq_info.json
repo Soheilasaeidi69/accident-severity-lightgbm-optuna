@@ -1,0 +1,28 @@
+{
+ "rows_raw": 500000,
+ "rows_in_period": 268760,
+ "rows_after_missing": 266102,
+ "boxcox_lambda": {
+  "Pressure(in)": 33.1999,
+  "Visibility(mi)": 0.9027,
+  "Wind_Speed(mph)": 0.561
+ },
+ "rows_clean": 266102,
+ "n_features": 132,
+ "class_counts_clean": {
+  "1": 1863,
+  "2": 187658,
+  "3": 68887,
+  "4": 7694
+ },
+ "scale": 0.12587837837837837,
+ "rows_sample": 57751,
+ "input_file": "s500k.csv",
+ "keep_freq": true,
+ "class_counts_sample": {
+  "1": 1862,
+  "2": 31217,
+  "3": 18630,
+  "4": 6042
+ }
+}
