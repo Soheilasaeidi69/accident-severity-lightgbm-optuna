@@ -14,7 +14,7 @@ The paper uses **US-Accidents** (Moosavi et al., 2019), a countrywide data set o
 - Project page: <https://smoosavi.org/datasets/us_accidents>
 - Licence: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 (CC BY-NC-SA 4.0)
 
-The paper used the **December 2020 release** (`US_Accidents_Dec20.csv`, about 4 million records, February 2016 to December 2020). Kaggle now offers the **March 2023 release** (`US_Accidents_March23.csv`, about 7.7 million records, 2016 to 2023) and a 500,000-record sample of it (`US_Accidents_March23_sampled_500k.csv`). The code accepts any of them; `src/preprocess.py` keeps the records from February 2016 to December 2020.
+The paper used the **December 2020 release** (`US_Accidents_Dec20.csv`, about 4.2 million records, February 2016 to December 2020). Kaggle now offers the **March 2023 release** (`US_Accidents_March23.csv`, about 7.7 million records, 2016 to 2023) and a 500,000-record sample of it (`US_Accidents_March23_sampled_500k.csv`). The code accepts any of them; `src/preprocess.py` keeps the records from February 2016 to December 2020.
 
 After preprocessing, the paper drew a resampled set of about 458,800 records (class 1: 14,800; class 2: 248,000; class 3: 148,000; class 4: 48,000) for model training and testing.
 
