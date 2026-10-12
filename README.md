@@ -1,4 +1,10 @@
-# Data
+# Road Accident Severity Classification with LightGBM-Optuna
+
+Code for the method of Rezashoar, Kashi and Saeidi (2024), Innovative Infrastructure Solutions 9:319. https://doi.org/10.1007/s41062-024-01626-y
+
+Repository: Soheila Saeidi, Florida Atlantic University
+
+## Data
 
 The data are not included in this repository.
 
