@@ -237,7 +237,7 @@ function limits(){
   const items = [
     `Data: the public 500,000-record sample of the March 2023 release of US-Accidents (the paper used the December 2020 release with about 4.2 million records). Records from February 2016 to December 2020: ${p.rows_in_period.toLocaleString()}; after cleaning: ${p.rows_clean.toLocaleString()}.`,
     `Sample: the paper's class sizes scaled by ${p.scale.toFixed(3)}, because the sample has only ${p.class_counts_clean['1'].toLocaleString()} severity 1 records: ${Object.values(p.class_counts_sample).map(v => v.toLocaleString()).join(' / ')} records of severity 1 to 4 (${p.rows_sample.toLocaleString()} in total).`,
-    `The paper's text says the frequency-encoded location variables (street, city, county, zip code, airport) were removed, while its Figure 12 shows them among the processed variables. Both versions are run here; with them, the results are much closer to the paper's.`,
+    `Both versions are run here: with and without the frequency-encoded location variables (street, city, county, zip code, airport). With them, the results are much closer to the paper's.`,
     t ? `Demo search: ${t.n_trials} trials, ${t.n_folds}-fold CV, best multi-class log loss ${t.best_value.toFixed(3)} (trial ${t.best_trial}), ${(t.seconds / 60).toFixed(0)} minutes on two processor cores.` : 'Demo search: not run.',
     'The 2023 release has no TMC, Number or Side columns, so they are skipped. Timezone is dropped because State carries the same information.'];
   document.getElementById('limits').innerHTML = items.map(s => `<li>${s}</li>`).join('');
